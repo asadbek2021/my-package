@@ -1,0 +1,19 @@
+{
+    "name": "my_package",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "tsup": {
+        "entry": ["index.ts"],
+        "splitting": false,
+        "sourcemap": true,
+        "clean": true
+      },
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "pnpm": "^8.6.6",
+        "typescript": "^5.1.6"
+    }
+}
