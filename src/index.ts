@@ -1,7 +1,5 @@
 import { myage } from "./guys";
 
- function addSum(): number {
+export function addSum(): number {
     return myage;
 } 
-
-addSum();
